@@ -15,7 +15,7 @@ def predict_lang(docx):
 def main():
     # Form to take user input
     with st.form(key='my_form'):
-        raw_text = st.text_area("Type Here your text to detect the language :)")
+        raw_text = st.text_area("Type your text here to detect the language :)")
         submit_text = st.form_submit_button(label='Submit')
 
     # If the submit button is clicked
