@@ -3,7 +3,7 @@
 ``` bash
 .
 ├── data
-│   ├── dataset.csv
+│   └── dataset.csv
 ├── model
 │   ├── count_vectorizer.pkl
 │   ├── lang_detect.pkl
@@ -23,5 +23,3 @@
          - Joblib
          - Pandas
          - numpy
- ### References
- [Language Detection with Machine Learning](https://thecleverprogrammer.com/2021/10/30/language-detection-with-machine-learning/)
